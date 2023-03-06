@@ -1,3 +1,19 @@
+## WARNING! THIS IS A BETA VERSION!
+
+This Home Assistant Add-ons repository contains beta releases of add-ons.
+
+- They might stop working at any time.
+- They could have a negative impact on your system.
+
+This repository was created for:
+
+- Anybody willing to test.
+- Anybody interested in trying out upcoming add-ons or add-on features.
+
+If you are more interested in stable releases of my add-ons:
+
+<https://github.com/miguelangel-nubla/hassio-repository>
+
 # miguelangel-nubla Home Assistant Add-ons
 
 ![Project Stage][project-stage-shield]
@@ -80,7 +96,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-[addon-add-repo]: https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Fmiguelangel-nubla%2Fhassio-repository
+[addon-add-repo]: https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Fmiguelangel-nubla%2Fhassio-repository-beta
 [addon-add-repo-badge]: https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg
 [addon-step-ca-client]: https://github.com/miguelangel-nubla/hassio-step-ca-client/tree/v0.1.0
 [addon-doc-step-ca-client]: https://github.com/miguelangel-nubla/hassio-step-ca-client/blob/v0.1.0/README.md
@@ -91,10 +107,10 @@ SOFTWARE.
 [step-ca-client-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
 [step-ca-client-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
 [step-ca-client-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
-[gitlabci-shield]: https://gitlab.com/miguelangel-nubla/hassio-repository/badges/master/pipeline.svg
-[gitlabci]: https://gitlab.com/miguelangel-nubla/hassio-repository/pipelines
-[issue]: https://github.com/miguelangel-nubla/hassio-repository/issues
-[license-shield]: https://img.shields.io/github/license/miguelangel-nubla/hassio-repository.svg
+[gitlabci-shield]: https://gitlab.com/miguelangel-nubla/hassio-repository-beta/badges/master/pipeline.svg
+[gitlabci]: https://gitlab.com/miguelangel-nubla/hassio-repository-beta/pipelines
+[issue]: https://github.com/miguelangel-nubla/hassio-repository-beta/issues
+[license-shield]: https://img.shields.io/github/license/miguelangel-nubla/hassio-repository-beta.svg
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2023.svg
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
 [semver]: http://semver.org/spec/v2.0.0.html
