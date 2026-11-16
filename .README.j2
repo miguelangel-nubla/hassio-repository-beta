@@ -126,8 +126,8 @@ SOFTWARE.
 [addon-add-repo]: https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url={{ repo | urlencode | replace("/", "%2F") }}
 [addon-add-repo-badge]: https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg
 {% for app in apps %}
-[addon-{{ app.target }}]: {{ app.repo }}/tree/{{ app.version }}
-[addon-doc-{{ app.target}}]: {{ app.repo }}/blob/{{ app.version }}/README.md
+[addon-{{ app.target }}]: {{ app.repo }}/tree/{{ app.version }}/{{ app.target }}
+[addon-doc-{{ app.target}}]: {{ app.repo }}/blob/{{ app.version }}/{{ app.target }}/DOCS.md
 [{{ app.target }}-issue]: {{ app.repo }}/issues
 [{{ app.target }}-version-shield]: https://img.shields.io/badge/version-{{ app.version }}-blue.svg
 {% for arch in ['aarch64', 'amd64', 'armhf', 'armv7', 'i386'] %}
